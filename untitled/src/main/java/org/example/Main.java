@@ -1,5 +1,6 @@
 package org.example;
 
+import org.helper.itemsLinkedList;
 import org.helper.itemsQueue;
 import org.helper.itemsStack;
 
@@ -9,11 +10,17 @@ public class Main {
         itemsStack itemsStack = new itemsStack();
         itemsStack.stackSet();
         System.out.println("**************************END REGION**************************\n");
+
         System.out.println("**************************QUEUE REGION**************************");
         itemsQueue itemsQueue = new itemsQueue();
         itemsQueue.queue();
         System.out.println("**************************PRIORITY QUEUE**************************");
         itemsQueue.queueWithPrior();
+        System.out.println("**************************END REGION**************************\n");
+
+        System.out.println("**************************LINKED LIST REGION**************************");
+        itemsLinkedList itemsLinkedList = new itemsLinkedList();
+        itemsLinkedList.linkedListSet();
         System.out.println("**************************END REGION**************************\n");
     }
 }
