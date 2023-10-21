@@ -25,7 +25,7 @@ public class itemsLinkedList {
         System.out.println("Linked List Queue after Offer: " + itemsLinkedListQueue);
         itemsLinkedListQueue.poll();
         System.out.println("Linked list as a Queue after Poll: " + itemsLinkedListQueue);
-        itemsLinkedListQueue.add(2, "Item 6");
+        itemsLinkedListQueue.add(2, "Item 7");
         System.out.println("Linked list after adding index is 2 and item is Item 6: " + itemsLinkedListQueue);
         itemsLinkedListQueue.remove("Item 4");
         System.out.println("Linked list after removing Item 4: " + itemsLinkedListQueue);
