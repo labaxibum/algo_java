@@ -29,7 +29,16 @@ public class itemsLinkedList {
         System.out.println("Linked list after adding index is 2 and item is Item 6: " + itemsLinkedListQueue);
         itemsLinkedListQueue.remove("Item 4");
         System.out.println("Linked list after removing Item 4: " + itemsLinkedListQueue);
-
-
+        System.out.println("Linked list index of Item 5: " + itemsLinkedListQueue.indexOf("Item 5"));
+        System.out.println("Linked list item after using peekFirst: " + itemsLinkedListQueue.peekFirst());
+        System.out.println("Linked list item after using peekLast: " + itemsLinkedListQueue.peekLast());
+        itemsLinkedListQueue.addFirst("Item 0");
+        System.out.println("Linked list after using addFirst: " + itemsLinkedListQueue);
+        itemsLinkedListQueue.addLast("Last item");
+        System.out.println("Linked list after using addLast: " + itemsLinkedListQueue);
+        itemsLinkedListQueue.removeFirst();
+        System.out.println("Linked list after removeFirst: " + itemsLinkedListQueue);
+        itemsLinkedListQueue.removeLast();
+        System.out.println("Linked list after removeFirst: " + itemsLinkedListQueue);
     }
 }
